@@ -1,0 +1,61 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+ */
+body{
+  background-image: url("file:///Users/shefali/Desktop/Drones-rocketry-club/assests%20/background.jpg?time=1568776536009");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.strip{
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+  height: 30vh;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%,-50%);
+}
+.main_title{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 15px;
+}
+.title{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.line{
+  height: 2px;
+  width: 200px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+.fa-angle-down{
+  color: white;
+  font-size: 50px;
+  font-weight: 100px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-95%,-50%);
+}
+#link{
+  text-decoration: none;
+}
+.card{
+  margin-left: 30px;
+}
+.fa-instagram, .fa-brain, .fa-discord, .fa-chalkboard, .fa-github{
+  color: black;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 50px;
+  float: left;
+}
